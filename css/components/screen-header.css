@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 30px 25px 30px;
+  align-items: center;
+}
+
+.header_header {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.header_icon span {
+  margin-left: 20px;
+  justify-content: flex-end;
+}
+
+.header-badge {
+  display: flex;
+  width: 5.5px;
+  height: 5.5px;
+  background-color: #ff6229;
+  position: absolute;
+  bottom: 10px;
+  border-radius: 50%;
+}
+
+.header-gear {
+  position: relative;
+}
+
+@keyframes rotatecog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.header-gear:hover {
+  animation: rotatecog 1s linear infinite;
+}

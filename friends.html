@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frinds-Kakao Talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>16:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="header">
+      <h1 class="header_header">Friends</h1>
+      <div class="header_icon">
+        <span
+          ><i class="fa-solid fa-magnifying-glass fa-magnifying-glass fa-lg"></i
+        ></span>
+        <span>
+          <i class="fa-solid fa-music fa-lg"></i>
+        </span>
+        <span>
+          <a href="settings.html"> <i class="fa-solid fa-gear fa-lg"></i></a>
+        </span>
+      </div>
+    </header>
+
+    <a id="friends-display-link"
+      ><i class="fa-solid fa-circle-info"></i> Friends'Names Display
+      <i class="fa-solid fa-chevron-right"></i
+    ></a>
+
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="screenshots/min.jpeg"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Minsug</h4>
+            <!--<h4 class="user-component__subtitle">this text</h4> -->
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Channel</span>
+          <i class="fa-solid fa-chevron-up"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://play-lh.googleusercontent.com/cf3DwPLbS8Z55sDvUSTQ6PL1goPdm8KbZ81g4TEUAaeUh5LDhkzdjxKQ2RX6BGpv0x4"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title-not-bold">Channel</h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>2</span>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="friends-screen__channel">
+        <a href="private-chat.html">
+          <div class="friends-screen__channel-header">
+            <span>Friends</span>
+            <i class="fa-solid fa-chevron-up"></i>
+          </div>
+          <div class="user-component">
+            <div class="user-component__column">
+              <img
+                src="screenshots/daeun.jpeg"
+                class="user-component__avatar user-component__avatar--sm"
+              />
+              <div class="user-component__text">
+                <h4 class="user-component__title-not-bold">이쁜사람</h4>
+              </div>
+            </div>
+            <div class="user-component__column">
+              <div>
+                <span class="user-component-reddot">1</span>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </main>
+
+    <div id="splash-screen">
+      <i class="fa-solid fa-comment"></i>
+    </div>
+
+    <nav class="nav">
+      <ui class="nav_list">
+        <li class="nav_btn">
+          <a class="nav_link" href="friends.html"
+            ><i class="fa-solid fa-user fa-lg"></i
+          ></a>
+        </li>
+        <li class="nav_btn">
+          <a class="nav_link" href="chat.html">
+            <span class="nav_notification">1</span>
+            <i class="fa-regular fa-comment fa-lg"></i
+          ></a>
+        </li>
+        <li class="nav_btn">
+          <a class="nav_link" href="find.html"
+            ><i
+              class="fa-solid fa-magnifying-glass fa-magnifying-glass fa-lg"
+            ></i
+          ></a>
+        </li>
+        <li class="nav_btn">
+          <a class="nav_link" href="more.html"
+            ><span class="nav_dot"></span
+            ><i class="fa-solid fa-ellipsis fa-lg"></i
+          ></a>
+        </li>
+      </ui>
+    </nav>
+    <script
+      src="https://kit.fontawesome.com/ccb5aa5456.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
