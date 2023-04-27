@@ -6,12 +6,12 @@
 .user-component__column:first-child {
   display: flex;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .user-component__avatar {
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   border-radius: 30px;
   margin-right: 20px;
   object-fit: cover;
@@ -19,23 +19,23 @@
 
 .user-component__title {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .user-component__subtitle {
   margin-top: 8px;
   color: rgba(0, 0, 0, 0.5);
-  font-size: 17px;
+  font-size: 14px;
 }
 
 .user-component__avatar--xl {
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
 }
 
 .user-component__avatar--sm {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
 }
 
 .user-component__channel {
@@ -64,6 +64,10 @@
   justify-content: center;
   align-items: center;
   font-size: 12px;
+}
+
+.user-component__column-time {
+  font-size: 13px;
 }
 
 .user-component__row {
@@ -102,4 +106,17 @@
   border-radius: 50%;
   color: white;
   font-weight: 600;
+}
+
+.user-component_family {
+  margin-top: 20px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.fa-thumbtack {
+  margin-left: 3px;
+  color: rgba(0, 0, 0, 0.25);
+  font-size: 14px;
 }

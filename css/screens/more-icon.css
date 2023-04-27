@@ -31,7 +31,7 @@
 }
 
 .more-icons-bottom .more-icons__icon:last-child {
-  margin-left: 65px;
+  margin-left: 20px;
 }
 
 .more-icons-bottom .more-icons__icon:first-child {
@@ -71,5 +71,9 @@
   margin-top: 15px;
   font-size: 17px;
   font-weight: 500;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.more-icons__icon:hover {
   color: rgba(0, 0, 0, 0.4);
 }
